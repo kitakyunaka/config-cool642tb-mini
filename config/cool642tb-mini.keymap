@@ -74,10 +74,10 @@
 
         NUM {
             bindings = <
-&kp N1     &kp N2     &kp N3     &kp N4     &kp N5                               &kp N6        &kp N7  &kp N8  &kp N9  &kp N0
-&trans     &kp A      &kp LBKT   &kp SPACE  &kp SPACE  &kp SPACE      &kp SPACE  &kp EQUAL     &kp N4  &kp N5  &kp N6  &kp SQT
-&kp MINUS  &kp MINUS  &kp MINUS  &kp MINUS  &kp MINUS  &trans         &trans     &kp LS(PLUS)  &kp N1  &kp N2  &kp N3  &kp FSLH
-&kp MINUS  &trans     &trans     &trans     &trans     &trans         &kp RET    &kp BSPC                              &kp RGUI
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                       &kp N6     &kp N7  &kp N8  &kp N9  &kp N0
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp COLON
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp PLUS   &kp N1  &kp N2  &kp N3  &kp FSLH
+&trans  &trans  &trans  &trans  &trans  &trans      &kp RET  &kp BSPC                           &kp RGUI
             >;
         };
 
