@@ -82,6 +82,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp PLUS   &kp N1  &kp N2  &kp N3  &kp FSLH
 &trans  &trans  &trans  &trans  &trans  &trans      &kp RET  &kp BSPC                           &kp RGUI
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         MOUSE {
@@ -91,6 +93,8 @@
 &kp Z   &kp X           &kp C        &kp V             &kp B           &trans               &trans                &kp N            &kp M  &mkp MB1  &mkp MB2  &kp FSLH
 &trans  &trans          &trans       &lt 3 ESCAPE      &lt 1 TAB       &mt LCTRL SPACE      &mt LEFT_SHIFT ENTER  &lt 2 BACKSPACE                             &kp RGUI
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         BLUETOOTH {
